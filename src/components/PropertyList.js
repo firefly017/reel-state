@@ -11,11 +11,15 @@ export default function PropertyList() {
       const data = await axios.get(
         "https://my-json-server.typicode.com/Codaisseur/listings-agents-data/listings"
       );
-      setPropertyCards(data.data);
+      setPropertyCards(data.data.sort(comparePriceEuro));
     };
     fetchData();
   }, []);
+  function comparePriceEuro(property_a, property_b) {
+    const diff = property_a.priceEuro - property_b.priceEuro;
 
+    return diff;
+  }
   return (
     <ul>
       {propertyCards.map((house) => {
