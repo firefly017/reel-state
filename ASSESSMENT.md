@@ -59,12 +59,12 @@
 
 | 5. View listings - Criteria                                          | Points | Self | Evaluator |
 | -------------------------------------------------------------------- | ------ | ---- | --------- |
-| The address, price, m2, bedRooms, is displayed for all listings      | 1      |      |           |
-| The data for each listing is displayed using a seperate component    | 2      |      |           |
-| The data is displayed using .map                                     | 1      |      |           |
-| There is a warning in the console regarding "key" props              | -1     |      |           |
+| The address, price, m2, bedRooms, is displayed for all listings      | 1      | 1    |           |
+| The data for each listing is displayed using a seperate component    | 2      | 2    |           |
+| The data is displayed using .map                                     | 1      | 1    |           |
+| There is a warning in the console regarding "key" props              | -1     | 0    |           |
 | Listings are sorted by priceEuro                                     | 1      |      |           |
-| The data is fetched from the api, not hardcoded                      | 1      |      |           |
+| The data is fetched from the api, not hardcoded                      | 1      | 1    |           |
 | There are 2 sliders, one for budget & one for floor space            | 1      | 1    |           |
 | The slider for budget has a min and max value                        | 0.5    |      |           |
 | The slider for floor space has a min and max value                   | 0.5    |      |           |
