@@ -48,12 +48,12 @@
 | A form is displayed on the schedule a view page                            | 1      | 1    |           |
 | The form has inputs for name, email, phone                                 | 0.5    | 0.5  |           |
 | The form has a select input for listing address, and a date input for date | 0.5    | 0.5  |           |
-| The state of the form is controlled using React useState hook(s)           | 2      |      |           |
-| When the form is submitted, the user input for all form fields is logged   | 2      |      |           |
-| When the form has been submitted, we show a success message to the user    | 2      |      |           |
-| The options for listing addresses are fetched from the api, not hardcoded  | 2      |      |           |
-| The success message is an alert, prompt or confirm popup                   | -1     |      |           |
-| There is a warning in the console regarding "key" props                    | -1     |      |           |
+| The state of the form is controlled using React useState hook(s)           | 2      | 2    |           |
+| When the form is submitted, the user input for all form fields is logged   | 2      | 2    |           |
+| When the form has been submitted, we show a success message to the user    | 2      | 2    |           |
+| The options for listing addresses are fetched from the api, not hardcoded  | 2      | 0    |           |
+| The success message is an alert, prompt or confirm popup                   | -1     | 0    |           |
+| There is a warning in the console regarding "key" props                    | -1     | 0    |           |
 | Submitting the form refreshes the page                                     | -2     | 0    |           |
 | Total                                                                      | 10     |      |           |
 
