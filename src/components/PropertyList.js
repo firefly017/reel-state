@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PropertyCard from "./PropertyCard";
 import axios from "axios";
-// import { Link } from "react-router-dom";
 
 export default function PropertyList() {
   const [propertyCards, setPropertyCards] = useState([]);

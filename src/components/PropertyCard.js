@@ -1,16 +1,16 @@
 import React from "react";
 
-export default function PropertyCard(props) {
+export default function PropertyCard(house) {
   return (
     <div>
       <p>
-        Address: {props.address.street} {props.address.number}
+        Address: {house.address.street} {house.address.number}
         {", "}
-        {props.address.city} <br />
-        Price € : {props.priceEuro} <br />
-        m2: {props.m2}
+        {house.address.city} <br />
+        Price € : {house.priceEuro} <br />
+        m2: {house.m2}
         <br />
-        Bedrooms: {props.bedRooms}{" "}
+        Bedrooms: {house.bedRooms}{" "}
       </p>
     </div>
   );

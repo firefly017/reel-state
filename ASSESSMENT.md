@@ -34,13 +34,13 @@
 
 | 3. About us - Criteria                                                        | Points | Self | Evaluator |
 | ----------------------------------------------------------------------------- | ------ | ---- | --------- |
-| Agents are displayed with their name, image, motto and email                  | 1      |      |           |
-| The data for agents is fetched from the api, not hardcoded                    | 2      |      |           |
+| Agents are displayed with their name, image, motto and email                  | 1      | 1    |           |
+| The data for agents is fetched from the api, not hardcoded                    | 2      | 2    |           |
 | Only agents that speak the language specified in the path are displayed       | 2      |      |           |
 | Which agents to display is determined using Array.filter, not hardcoded       | 2      |      |           |
 | The buttons link to the correct pages                                         | 1      | 1    |           |
 | The text on the 2 buttons is translated to the language specified in the path | 1      |      |           |
-| The value of the language is hardcoded, not dynamically taken from the path   | -1     |      |           |
+| The value of the language is hardcoded, not dynamically taken from the path   | -1     | -1   |           |
 | Total                                                                         | 9      |      |           |
 
 | 4. Book viewing - Criteria                                                 | Points | Self | Evaluator |
@@ -63,7 +63,7 @@
 | The data for each listing is displayed using a seperate component    | 2      | 2    |           |
 | The data is displayed using .map                                     | 1      | 1    |           |
 | There is a warning in the console regarding "key" props              | -1     | 0    |           |
-| Listings are sorted by priceEuro                                     | 1      |      |           |
+| Listings are sorted by priceEuro                                     | 1      | 1    |           |
 | The data is fetched from the api, not hardcoded                      | 1      | 1    |           |
 | There are 2 sliders, one for budget & one for floor space            | 1      | 1    |           |
 | The slider for budget has a min and max value                        | 0.5    |      |           |
