@@ -65,7 +65,7 @@
 | There is a warning in the console regarding "key" props              | -1     |      |           |
 | Listings are sorted by priceEuro                                     | 1      |      |           |
 | The data is fetched from the api, not hardcoded                      | 1      |      |           |
-| There are 2 sliders, one for budget & one for floor space            | 1      |      |           |
+| There are 2 sliders, one for budget & one for floor space            | 1      | 1    |           |
 | The slider for budget has a min and max value                        | 0.5    |      |           |
 | The slider for floor space has a min and max value                   | 0.5    |      |           |
 | Moving a slider for budget filters listings which are too expensive  | 2      |      |           |
