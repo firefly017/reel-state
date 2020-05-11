@@ -1,5 +1,10 @@
 import React from "react";
+import Title from "../components/Title";
 
 export default function AboutUs() {
-  return <div>This is the about us page</div>;
+  return (
+    <div>
+      <Title title="About us" />
+    </div>
+  );
 }

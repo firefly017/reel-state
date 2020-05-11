@@ -1,10 +1,4 @@
-| Criteria                                                                         | Points |
-| -------------------------------------------------------------------------------- | ------ |
-| Student performed an accurate self assessment (within 7 points of the evaluator) | 2      |
-| Student can reflect on their process by writing a reflection of ~200 words       | 2      |
-| Student has committed at least once per section                                  | 1      |
-| Student has pushed their repository using git                                    | 1      |
-| Total                                                                            | 6      |
+                                                                         | 6      |
 
 ### Self assessment
 
@@ -22,12 +16,12 @@
 
 | 1. Navigation - Criteria                                                 | Points | Self | Evaluator |
 | ------------------------------------------------------------------------ | ------ | ---- | --------- |
-| 3 Static Routes are implemented using react router                       | 1      |
-| There is 1 dynamic route implemented with a route parameter for language | 1      |
-| Each route renders a different component                                 | 1      |
-| A navbar can be used to navigate on all pages                            | 1      |
-| The navbar indicates what page you are on                                | 1      |
-| Total                                                                    | 5      |
+| 3 Static Routes are implemented using react router                       | 1      | 1    |           |
+| There is 1 dynamic route implemented with a route parameter for language | 1      | 0    |           |
+| Each route renders a different component                                 | 1      | 1    |           |
+| A navbar can be used to navigate on all pages                            | 1      | 1    |           |
+| The navbar indicates what page you are on                                | 1      | 1    |           |
+| Total                                                                    | 5      | 4    |           |
 
 | 2. Home page buttons - Criteria                                                    | Points | Self | Evaluator |
 | ---------------------------------------------------------------------------------- | ------ | ---- | --------- |
@@ -105,4 +99,3 @@
 | Student has committed at least once per section                                  | 1      |      |           |
 | Student has pushed their repository using git                                    | 1      |      |           |
 | Total                                                                            | 6      |      |           |
-

@@ -1,5 +1,10 @@
 import React from "react";
+import Title from "../components/Title";
 
 export default function ScheduleViewing() {
-  return <div>this is the schedule viewing page</div>;
+  return (
+    <div>
+      <Title title="Schedule Viewing" />
+    </div>
+  );
 }
