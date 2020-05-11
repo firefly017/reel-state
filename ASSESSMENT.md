@@ -21,7 +21,7 @@
 | Each route renders a different component                                 | 1      | 1    |           |
 | A navbar can be used to navigate on all pages                            | 1      | 1    |           |
 | The navbar indicates what page you are on                                | 1      | 1    |           |
-| Total                                                                    | 5      | 4    |           |
+| Total                                                                    | 5      |      |           |
 
 | 2. Home page buttons - Criteria                                                    | Points | Self | Evaluator |
 | ---------------------------------------------------------------------------------- | ------ | ---- | --------- |
@@ -30,7 +30,7 @@
 | Selecting an option changes the text on the buttons                                | 1      |      |           |
 | Translation of the buttons works correctly for all 4 languages                     | 1      |      |           |
 | The `About us` button links to a different path depending on the language selected | 2      |      |           |
-| Total                                                                              | 6      | 2    |           |
+| Total                                                                              | 6      |      |           |
 
 | 3. About us - Criteria                                                        | Points | Self | Evaluator |
 | ----------------------------------------------------------------------------- | ------ | ---- | --------- |
@@ -38,7 +38,7 @@
 | The data for agents is fetched from the api, not hardcoded                    | 2      |      |           |
 | Only agents that speak the language specified in the path are displayed       | 2      |      |           |
 | Which agents to display is determined using Array.filter, not hardcoded       | 2      |      |           |
-| The buttons link to the correct pages                                         | 1      |      |           |
+| The buttons link to the correct pages                                         | 1      | 1    |           |
 | The text on the 2 buttons is translated to the language specified in the path | 1      |      |           |
 | The value of the language is hardcoded, not dynamically taken from the path   | -1     |      |           |
 | Total                                                                         | 9      |      |           |
