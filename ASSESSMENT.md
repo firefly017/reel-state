@@ -25,12 +25,12 @@
 
 | 2. Home page buttons - Criteria                                                    | Points | Self | Evaluator |
 | ---------------------------------------------------------------------------------- | ------ | ---- | --------- |
-| 2 Buttons link to the correct pages                                                | 1      |      |           |
-| A select input is displayed on the page, with 4 options for languages              | 1      |      |           |
+| 2 Buttons link to the correct pages                                                | 1      | 1    |           |
+| A select input is displayed on the page, with 4 options for languages              | 1      | 1    |           |
 | Selecting an option changes the text on the buttons                                | 1      |      |           |
 | Translation of the buttons works correctly for all 4 languages                     | 1      |      |           |
 | The `About us` button links to a different path depending on the language selected | 2      |      |           |
-| Total                                                                              | 6      |      |           |
+| Total                                                                              | 6      | 2    |           |
 
 | 3. About us - Criteria                                                        | Points | Self | Evaluator |
 | ----------------------------------------------------------------------------- | ------ | ---- | --------- |

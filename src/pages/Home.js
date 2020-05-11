@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Title from "../components/Title";
+import SelectLanguageButton from "../components/SelectLanguageButton";
 
 export default function Home() {
   return (
@@ -10,11 +11,15 @@ export default function Home() {
         <Link to="/listings">
           <button type="button">See listings</button>
         </Link>
-      </p>
-      <p>
+
+        {"         "}
+
         <Link to="/aboutUs">
           <button type="button">About us</button>
         </Link>
+      </p>
+      <p>
+        <SelectLanguageButton />
       </p>
     </div>
   );
