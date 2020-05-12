@@ -11,6 +11,12 @@ a {
   font-size: larger;
 }
 
+img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
 a:hover {
   color: cornsilk;
   text-decoration: underline dotted;
