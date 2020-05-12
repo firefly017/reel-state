@@ -76,12 +76,12 @@
 
 | 6. Express server - Criteria                                                                                   | Points | Self | Evaluator |
 | -------------------------------------------------------------------------------------------------------------- | ------ | ---- | --------- |
-| There is a file called server.js, in the folder created by create-react-app                                    | 0.5    |      |           |
-| package.json contains a script called `server`, which runs the server.js file with node                        | 0.5    |      |           |
+| There is a file called server.js, in the folder created by create-react-app                                    | 0.5    | 0.5  |           |
+| package.json contains a script called `server`, which runs the server.js file with node                        | 0.5    | 0.5  |           |
 | package.json contains a script called `server-dev`, which runs the server.js file with nodemon                 | 0.5    |      |           |
-| running server.js starts an express server which listens on port 4000                                          | 1      |      |           |
-| Requests to http://localhost:4000/listings get a response of an array with 10 listings                         | 1      |      |           |
-| Requests to http://localhost:4000/agents get a response of an array of 2 agents                                | 1      |      |           |
+| running server.js starts an express server which listens on port 4000                                          | 1      | 1    |           |
+| Requests to http://localhost:4000/listings get a response of an array with 10 listings                         | 1      | 1    |           |
+| Requests to http://localhost:4000/agents get a response of an array of 2 agents                                | 1      | 1    |           |
 | Requests to http://localhost:4000/agents/:language get a response of an array of agents speaking that language | 2.5    |      |           |
 | More than 1 route is used to implement http://localhost:4000/agents/:language                                  | -1.5   |      |           |
 | Total                                                                                                          | 7      |      |           |
