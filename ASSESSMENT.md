@@ -66,8 +66,8 @@
 | Listings are sorted by priceEuro                                     | 1      | 1    |           |
 | The data is fetched from the api, not hardcoded                      | 1      | 1    |           |
 | There are 2 sliders, one for budget & one for floor space            | 1      | 1    |           |
-| The slider for budget has a min and max value                        | 0.5    |      |           |
-| The slider for floor space has a min and max value                   | 0.5    |      |           |
+| The slider for budget has a min and max value                        | 0.5    | 0.5  |           |
+| The slider for floor space has a min and max value                   | 0.5    | 0.5  |           |
 | Moving a slider for budget filters listings which are too expensive  | 2      |      |           |
 | Moving a slider for floor space filters listings which are too small | 2      |      |           |
 | The properties are filtered using something other than .filter       | -2     |      |           |

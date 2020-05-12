@@ -11,3 +11,4 @@ What would you do differently next time to improve, process wise
 
 //\* used a bit of advanced code for schedule viewing form from here: https://www.youtube.com/watch?v=0f-eBwLmXGo
 //\* for now created some styling, AgentCard.css might need some changing after sorting the agents via languages
+//\* for idea about how to read the value of slider: https://stackoverflow.com/questions/36122034/jsx-react-html5-input-slider-doesnt-work
