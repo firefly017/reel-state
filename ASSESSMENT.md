@@ -4,15 +4,15 @@
 
 | Section             | Max Points | Self  | Evaluator |
 | ------------------- | ---------- | ----- | --------- |
-| 1 Navigation        | 5          | 0/5   | 0/5       |
-| 2 Home page buttons | 6          | 0/6   | 0/6       |
-| 3 About us          | 9          | 0/9   | 0/9       |
+| 1 Navigation        | 5          | 4/5   | 0/5       |
+| 2 Home page buttons | 6          | 2/6   | 0/6       |
+| 3 About us          | 9          | 3/9   | 0/9       |
 | 4 Book viewing      | 10         | 10/10 | 0/10      |
-| 5 View listings     | 15         | 0/15  | 0/15      |
-| 6 Express server    | 7          | 0/7   | 0/7       |
-| 7 Styling           | 2          | 0/2   | 0/2       |
-| 8 Finishing up      | 6          | 0/6   | 0/6       |
-| Total               | 60         | 0/60  | 0/60      |
+| 5 View listings     | 15         | 15/15 | 0/15      |
+| 6 Express server    | 7          | 4/7   | 0/7       |
+| 7 Styling           | 2          | 2/2   | 0/2       |
+| 8 Finishing up      | 6          | 5/6   | 0/6       |
+| Total               | 60         | 45/60 | 0/60      |
 
 | 1. Navigation - Criteria                                                 | Points | Self | Evaluator |
 | ------------------------------------------------------------------------ | ------ | ---- | --------- |
@@ -21,27 +21,27 @@
 | Each route renders a different component                                 | 1      | 1    |           |
 | A navbar can be used to navigate on all pages                            | 1      | 1    |           |
 | The navbar indicates what page you are on                                | 1      | 1    |           |
-| Total                                                                    | 5      |      |           |
+| Total                                                                    | 5      | 4    |           |
 
 | 2. Home page buttons - Criteria                                                    | Points | Self | Evaluator |
 | ---------------------------------------------------------------------------------- | ------ | ---- | --------- |
 | 2 Buttons link to the correct pages                                                | 1      | 1    |           |
 | A select input is displayed on the page, with 4 options for languages              | 1      | 1    |           |
-| Selecting an option changes the text on the buttons                                | 1      |      |           |
-| Translation of the buttons works correctly for all 4 languages                     | 1      |      |           |
-| The `About us` button links to a different path depending on the language selected | 2      |      |           |
-| Total                                                                              | 6      |      |           |
+| Selecting an option changes the text on the buttons                                | 1      | 0    |           |
+| Translation of the buttons works correctly for all 4 languages                     | 1      | 0    |           |
+| The `About us` button links to a different path depending on the language selected | 2      | 0    |           |
+| Total                                                                              | 6      | 2    |           |
 
 | 3. About us - Criteria                                                        | Points | Self | Evaluator |
 | ----------------------------------------------------------------------------- | ------ | ---- | --------- |
 | Agents are displayed with their name, image, motto and email                  | 1      | 1    |           |
 | The data for agents is fetched from the api, not hardcoded                    | 2      | 2    |           |
-| Only agents that speak the language specified in the path are displayed       | 2      |      |           |
-| Which agents to display is determined using Array.filter, not hardcoded       | 2      |      |           |
+| Only agents that speak the language specified in the path are displayed       | 2      | 0    |           |
+| Which agents to display is determined using Array.filter, not hardcoded       | 2      | 0    |           |
 | The buttons link to the correct pages                                         | 1      | 1    |           |
-| The text on the 2 buttons is translated to the language specified in the path | 1      |      |           |
+| The text on the 2 buttons is translated to the language specified in the path | 1      | 0    |           |
 | The value of the language is hardcoded, not dynamically taken from the path   | -1     | -1   |           |
-| Total                                                                         | 9      |      |           |
+| Total                                                                         | 9      | 3    |           |
 
 | 4. Book viewing - Criteria                                                 | Points | Self | Evaluator |
 | -------------------------------------------------------------------------- | ------ | ---- | --------- |
@@ -71,20 +71,20 @@
 | Moving a slider for budget filters listings which are too expensive  | 2      | 2    |           |
 | Moving a slider for floor space filters listings which are too small | 2      | 2    |           |
 | The properties are filtered using something other than .filter       | -2     | 0    |           |
-| The min and max values for the sliders are dynamic, not hardcoded    | 3      |      |           |
-| Total                                                                | 15     |      |           |
+| The min and max values for the sliders are dynamic, not hardcoded    | 3      | 3    |           |
+| Total                                                                | 15     | 15   |           |
 
 | 6. Express server - Criteria                                                                                   | Points | Self | Evaluator |
 | -------------------------------------------------------------------------------------------------------------- | ------ | ---- | --------- |
 | There is a file called server.js, in the folder created by create-react-app                                    | 0.5    | 0.5  |           |
 | package.json contains a script called `server`, which runs the server.js file with node                        | 0.5    | 0.5  |           |
-| package.json contains a script called `server-dev`, which runs the server.js file with nodemon                 | 0.5    |      |           |
+| package.json contains a script called `server-dev`, which runs the server.js file with nodemon                 | 0.5    | 0    |           |
 | running server.js starts an express server which listens on port 4000                                          | 1      | 1    |           |
 | Requests to http://localhost:4000/listings get a response of an array with 10 listings                         | 1      | 1    |           |
 | Requests to http://localhost:4000/agents get a response of an array of 2 agents                                | 1      | 1    |           |
-| Requests to http://localhost:4000/agents/:language get a response of an array of agents speaking that language | 2.5    |      |           |
-| More than 1 route is used to implement http://localhost:4000/agents/:language                                  | -1.5   |      |           |
-| Total                                                                                                          | 7      |      |           |
+| Requests to http://localhost:4000/agents/:language get a response of an array of agents speaking that language | 2.5    | 0    |           |
+| More than 1 route is used to implement http://localhost:4000/agents/:language                                  | -1.5   | 0    |           |
+| Total                                                                                                          | 7      | 4    |           |
 
 | 7. Styling - Criteria                                                  | Points | Self | Evaluator |
 | ---------------------------------------------------------------------- | ------ | ---- | --------- |
@@ -94,8 +94,8 @@
 
 | 8. Finishing up - Criteria                                                       | Points | Self | Evaluator |
 | -------------------------------------------------------------------------------- | ------ | ---- | --------- |
-| Student performed an accurate self assessment (within 7 points of the evaluator) | 2      |      |           |
-| Student can reflect on their process by writing a reflection of ~200 words       | 2      |      |           |
-| Student has committed at least once per section                                  | 1      |      |           |
-| Student has pushed their repository using git                                    | 1      |      |           |
-| Total                                                                            | 6      |      |           |
+| Student performed an accurate self assessment (within 7 points of the evaluator) | 2      | 1    |           |
+| Student can reflect on their process by writing a reflection of ~200 words       | 2      | 2    |           |
+| Student has committed at least once per section                                  | 1      | 1    |           |
+| Student has pushed their repository using git                                    | 1      | 1    |           |
+| Total                                                                            | 6      | 5    |           |

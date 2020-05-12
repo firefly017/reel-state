@@ -4,8 +4,12 @@ import axios from "axios";
 
 export default function PropertyList() {
   const [propertyCards, setPropertyCards] = useState([]);
-  const [maxBudget, setMaxBudget] = useState(886000);
-  const [minFloor, setMinFloor] = useState(44);
+  const [maxVal, setMaxVal] = useState(0);
+  const [maxBudget, setMaxBudget] = useState(0);
+  const [minBudget, setMinBudget] = useState(0);
+  const [minFloor, setMinFloor] = useState(0);
+  const [minSize, setMinSize] = useState(0);
+  const [maxSize, setMaxSize] = useState(0);
   const [allProperties, setAllProperties] = useState([]);
 
   const floorChange = (event) => {
@@ -19,12 +23,32 @@ export default function PropertyList() {
     setMaxBudget(event.target.value);
     showFilteredProperties(allProperties, minFloor, event.target.value);
   };
+
   async function fetchData() {
     const data = await axios.get(
       "https://my-json-server.typicode.com/Codaisseur/listings-agents-data/listings"
     );
     setAllProperties(data.data);
-    showFilteredProperties(data.data, minFloor, maxBudget);
+    const prices = data.data.map((property) => {
+      return property.priceEuro;
+    });
+    const maxPrice = Math.max.apply(null, prices); // Math.max(prices);
+    setMaxVal(maxPrice);
+    setMaxBudget(maxPrice);
+    const minPrice = Math.min.apply(null, prices);
+    setMinBudget(minPrice);
+
+    const floors = data.data.map((property) => {
+      return property.m2;
+    });
+    const minFloorSize = Math.min.apply(null, floors);
+    const maxFloorSize = Math.max.apply(null, floors);
+    setMinSize(minFloorSize);
+    setMaxSize(maxFloorSize);
+    if (minFloorSize > minFloor) {
+      setMinFloor(minFloorSize);
+    }
+    showFilteredProperties(data.data, minFloorSize, maxPrice);
   }
   async function showFilteredProperties(
     properties,
@@ -78,8 +102,8 @@ export default function PropertyList() {
             type="range"
             id="budget"
             name="budget"
-            min="161000"
-            max="886000"
+            min={minBudget}
+            max={maxVal}
             value={maxBudget}
             onChange={budgetChange}
           />
@@ -90,8 +114,8 @@ export default function PropertyList() {
             type="range"
             id="space"
             name="space"
-            min="44"
-            max="103"
+            min={minSize}
+            max={maxSize}
             value={minFloor}
             onChange={floorChange}
           />
