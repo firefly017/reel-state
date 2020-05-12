@@ -8,7 +8,7 @@ export default function AgentCard(props) {
         {props.firstName} {props.lastName}
       </b>
       <br />
-      <img src={props.imageUrl} />
+      <img src={props.imageUrl} alt="agent" />
       <br />
       Motto: {props.motto}
       <br />

@@ -8,7 +8,10 @@ export default function Home() {
   return (
     <div>
       <Title title="Welcome to Reel Estate" />
-      <img src="https://www.advantageico.com/wp-content/uploads/2019/03/19.jpg" />
+      <img
+        src="https://www.advantageico.com/wp-content/uploads/2019/03/19.jpg"
+        alt="Reel state home"
+      />
       <p>
         <Link to="/listings">
           <button type="button">See listings</button>
