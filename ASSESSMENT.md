@@ -2,17 +2,17 @@
 
 ### Self assessment
 
-| Section             | Max Points | Self | Evaluator |
-| ------------------- | ---------- | ---- | --------- |
-| 1 Navigation        | 5          | 0/5  | 0/5       |
-| 2 Home page buttons | 6          | 0/6  | 0/6       |
-| 3 About us          | 9          | 0/9  | 0/9       |
-| 4 Book viewing      | 10         | 0/10 | 0/10      |
-| 5 View listings     | 15         | 0/15 | 0/15      |
-| 6 Express server    | 7          | 0/7  | 0/7       |
-| 7 Styling           | 2          | 0/2  | 0/2       |
-| 8 Finishing up      | 6          | 0/6  | 0/6       |
-| Total               | 60         | 0/60 | 0/60      |
+| Section             | Max Points | Self  | Evaluator |
+| ------------------- | ---------- | ----- | --------- |
+| 1 Navigation        | 5          | 0/5   | 0/5       |
+| 2 Home page buttons | 6          | 0/6   | 0/6       |
+| 3 About us          | 9          | 0/9   | 0/9       |
+| 4 Book viewing      | 10         | 10/10 | 0/10      |
+| 5 View listings     | 15         | 0/15  | 0/15      |
+| 6 Express server    | 7          | 0/7   | 0/7       |
+| 7 Styling           | 2          | 0/2   | 0/2       |
+| 8 Finishing up      | 6          | 0/6   | 0/6       |
+| Total               | 60         | 0/60  | 0/60      |
 
 | 1. Navigation - Criteria                                                 | Points | Self | Evaluator |
 | ------------------------------------------------------------------------ | ------ | ---- | --------- |
@@ -51,11 +51,11 @@
 | The state of the form is controlled using React useState hook(s)           | 2      | 2    |           |
 | When the form is submitted, the user input for all form fields is logged   | 2      | 2    |           |
 | When the form has been submitted, we show a success message to the user    | 2      | 2    |           |
-| The options for listing addresses are fetched from the api, not hardcoded  | 2      | 0    |           |
+| The options for listing addresses are fetched from the api, not hardcoded  | 2      | 2    |           |
 | The success message is an alert, prompt or confirm popup                   | -1     | 0    |           |
 | There is a warning in the console regarding "key" props                    | -1     | 0    |           |
 | Submitting the form refreshes the page                                     | -2     | 0    |           |
-| Total                                                                      | 10     |      |           |
+| Total                                                                      | 10     | 10   |           |
 
 | 5. View listings - Criteria                                          | Points | Self | Evaluator |
 | -------------------------------------------------------------------- | ------ | ---- | --------- |

@@ -5,5 +5,6 @@ What did you do well, process wise
 What would you do differently next time to improve, process wise
 -learn dynamic routing carefully
 -having trouble with setting up min and max values for slider
+-in form component, I fetched the listing data again from API, which is coontradictory to DRY, next time I'll make data fetching more reusable.
 
 //\* used a bit of advanced code for schedule viewing form from here: https://www.youtube.com/watch?v=0f-eBwLmXGo
