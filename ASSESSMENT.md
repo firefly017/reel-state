@@ -88,9 +88,9 @@
 
 | 7. Styling - Criteria                                                  | Points | Self | Evaluator |
 | ---------------------------------------------------------------------- | ------ | ---- | --------- |
-| Student has applied at least 5 style rules                             | 1      |      |           |
-| Styles are split up across at least 2 css files created by the student | 1      |      |           |
-| Total                                                                  | 2      |      |           |
+| Student has applied at least 5 style rules                             | 1      | 1    |           |
+| Styles are split up across at least 2 css files created by the student | 1      | 1    |           |
+| Total                                                                  | 2      | 2    |           |
 
 | 8. Finishing up - Criteria                                                       | Points | Self | Evaluator |
 | -------------------------------------------------------------------------------- | ------ | ---- | --------- |

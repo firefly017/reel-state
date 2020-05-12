@@ -16,7 +16,7 @@ export default function AgentList() {
   }, []);
 
   return (
-    <div>
+    <div className="agentID">
       {agentCards.map((props) => {
         return <ul key={props.id}> {AgentCard(props)}</ul>;
       })}

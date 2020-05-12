@@ -1,0 +1,15 @@
+div.agentID {
+  width: 1000px;
+  padding: 30px;
+  margin: 30px;
+  font-family: Arial;
+  text-align: center;
+  border: 10px;
+  border-style: double;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+.li {
+  text-align: justify;
+}

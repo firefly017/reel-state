@@ -8,3 +8,4 @@ What would you do differently next time to improve, process wise
 -in form component, I fetched the listing data again from API, which is coontradictory to DRY, next time I'll make data fetching more reusable.
 
 //\* used a bit of advanced code for schedule viewing form from here: https://www.youtube.com/watch?v=0f-eBwLmXGo
+//\* for now created some styling, AgentCard.css might need some changing aftersorting the agents via languages

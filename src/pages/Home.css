@@ -1,0 +1,41 @@
+div {
+  background-color: rgb(7, 185, 60);
+  color: cornsilk;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+a {
+  color: darkred;
+  font-size: larger;
+}
+
+a:hover {
+  color: cornsilk;
+  text-decoration: underline dotted;
+}
+
+button {
+  font-weight: bold;
+  background-color: cornsilk;
+  color: rgb(10, 37, 85);
+  border-radius: 15px;
+  padding: 30px;
+}
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  text-shadow: 2px 2px 1px maroon;
+  color: cornsilk;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: lighter;
+}

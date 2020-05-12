@@ -13,14 +13,14 @@ function App() {
       <nav>
         <NavBar />
       </nav>
-      <header className="App-header">
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/listings" component={ListingPage} />
-          <Route path="/scheduleViewing" component={ScheduleViewing} />
-          <Route path="/aboutUs" component={AbooutUs} />
-        </Switch>
-      </header>
+      {/* <header className="App-header"> */}
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/listings" component={ListingPage} />
+        <Route path="/scheduleViewing" component={ScheduleViewing} />
+        <Route path="/aboutUs" component={AbooutUs} />
+      </Switch>
+      {/* </header> */}
     </div>
   );
 }
